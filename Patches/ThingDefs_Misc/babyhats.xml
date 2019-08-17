@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <!--  Handgear remove Mass  -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_Baby_Beanie"]/statBases/Mass</xpath>
+  </Operation>
+  <!-- Handgear Base Class -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_Baby_Beanie"]/statBases</xpath>
+    <value>
+      <Bulk>0.3</Bulk>
+      <WornBulk>0.06</WornBulk>
+      <Mass>0.06</Mass>
+    </value>
+  </Operation>
+</Patch>

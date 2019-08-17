@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ 
+ <Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ChildColonist"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>2</min>
+          <max>4</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+</Patch>
